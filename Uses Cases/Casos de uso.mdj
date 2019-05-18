@@ -858,7 +858,7 @@
 											"top": 203.5,
 											"width": 152,
 											"height": 13,
-											"text": "CU-03: Consultar Cliente"
+											"text": "CU-04: Consultar Cliente"
 										},
 										{
 											"_type": "LabelView",
@@ -2266,7 +2266,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFqp3p7v2bA5hI="
 					},
-					"name": "CU-03: Consultar Cliente",
+					"name": "CU-04: Consultar Cliente",
 					"ownedElements": [
 						{
 							"_type": "UMLExtend",
@@ -2281,7 +2281,8 @@
 								"$ref": "AAAAAAFqp37ZNWbyanA="
 							}
 						}
-					]
+					],
+					"documentation": "Escenarios: CU-03:  Consultar Clientes\n\nActualizar Cliente (Flujo básico)\n\n1- El caso de uso se inicia cuando Admin selecciona Actualizar cliente\n2- El administrador puede o no seleccionar 'Consulta General'\n3- El administrador puede o no seleccionar 'Consulta especifica'\n4- El caso de uso finaliza\n\nFlijos alternos\n\n2.1 Si el administrador selecciona la opcion 'Consulta genearl'\n   2.1.1 se ejecuta el caso de uso CU-05: Consulta general\n   \n\n3.1- Si el administrador seleccionó 'Consulta especifica'\n   3.1.1 se ejecuta el caso de uso CU-05: Consulta especifica"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -2304,7 +2305,8 @@
 								"$ref": "AAAAAAFqwvh/vYbtMjw="
 							}
 						}
-					]
+					],
+					"documentation": "Escenarios: CU-05:  Consultar General\n\nConsultar General(Flujo básico)\n\n1- El caso de uso se inicia cuando Admin selecciona 'Consulatar General'\n2- El sistema muestra una vista general de todos los clientes registrados\n3-  El caso de uso finaliza\n"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -2327,7 +2329,8 @@
 								"$ref": "AAAAAAFqwvh/vYbtMjw="
 							}
 						}
-					]
+					],
+					"documentation": "Escenarios: CU-06:  Consultar Especifica\n\nConsulta especifica (Flujo básico)\n\n1- El caso de uso se inicia cuando Admin selecciona 'Consulta especifica'\n2- El sistema despliega un formulario de consulta con los siguientes datos:\n   * Cod_id (Documento)\n3- El administrador llena el formulario\n4- El administrador da click en continuar\n5- El sistema muestra una vista del cliente \n\nFlijos alternos\n\n5.1 Si sistema verifica que los campos esten completos   \n   5.1.1 el sistema muestra 'Faltan campos por llenar'\n\n5.2- El sistema verifica que el usuario este registrado\n   5.2.1 El sistema muestra el mensaje 'El usuario no está registrado'\n   5.2.2 Em sistema muestra las opciones:\n      * Salir\n      * Registrar\n   \n         5.2.2.1 El adinistrador seleccionó Salir\n           5.2.2.1.1 El sistema regresa a la pagina de origen\n\n         5.2.2.2  El administrador seleccionó 'Registrar'\n             5.2.2.2.1 Se ejecuta el caso de uso CU-02: Registrar  Cliente"
 				}
 			]
 		}
