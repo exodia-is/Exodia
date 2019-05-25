@@ -1,4 +1,6 @@
 #Requerimientos Funcionales
+- El sistema debe permitir ingresar únicamente a usuarios com permisos de administración al modulo 'administrativo'
+- El sistema 
 
 #Requerimirntos de Información
 
