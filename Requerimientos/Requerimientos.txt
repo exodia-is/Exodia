@@ -1,6 +1,40 @@
-#Requerimientos Funcionales
+﻿#Requerimientos Funcionales
 
 #Requerimirntos de Información
+	- Requisitos de información de los clientes
+		-El sistema debe almacenar el nombre del cliente
+		-El sistema debe almacenar el apellido del cliente
+		-El sistema debe almacenar la identificación del cliente
+		-El sistema debe almacenar el nombre del cliente
+		-El sistema debe almacenar el apellido del cliente
+		-El sistema debe almacenar el telefono del cliente
+		-El sistema debe almacenar el dirección del cliente
+		-El sistema debe almacenar el correo del cliente
+		-El sistema debe almacenar el estado  del cliente si es activo o inactivo
+	- Requisitos de información de los empleados
+		-El sistema debe almacenar el nombre del Empleado
+		-El sistema debe almacenar el apellido del Empleado
+		-El sistema debe almacenar la identificación del Empleado
+		-El sistema debe almacenar el nombre del Empleado
+		-El sistema debe almacenar el apellido del Empleado
+		-El sistema debe almacenar el telefono del Empleado
+		-El sistema debe almacenar el dirección del Empleado
+		-El sistema debe almacenar el correo del Empleado
+		-El sistema debe almacenar el tipo de contrato del empleado
+		-El sistema debe almacenar el pago por hora del empleado
+		-El sistema debe almacenar el nombre de la EPs del empleado
+	-Requisitos de información de los trabajos realizados
+		-El sistema debe almacenar la o las fotos del trabajo realizado
+		-El sistema debe almacenar la descripción del trabajo realizado
+		-El sistema debe almacenar la fecha de realización del trabajo realizado
+		-El sistema debe almacenar la identificación del cliente al que se le realizó el trabajo
+		-El sistema debe almacenar la identificación del empleado que realizó el trabajo
+	-Requisitos de información de los productos
+		-El sistema debe almacenar el nombre del producto
+		-El sistema debe almacenar el precio del producto
+		-El sistema debe almacenar las caracteristicas del producto
+		-El sistema debe almacenar la fecha de vencimiento del producto
+		-El sistema debe almacenar la cantidad de unidades del producto en inventario
 
 #Requerimientos no Funcionales
 
