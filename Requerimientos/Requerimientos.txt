@@ -1,4 +1,21 @@
-﻿#Requerimientos Funcionales
+﻿<<<<<<< HEAD
+#Requerimientos no Funcionales
+- Toda funcionalidad del sistema debe responder al usuario en menos de 5 segundos 
+- El sistema debe ser capaz de soportar una gran cantidad de datos 
+- El sistema debe soportar un largo tiempo de trabajo sin trabas ni inconvenientes que perjudiquen el uso 
+y la comodidad del sistema
+- El sistema dede tener la funcion de proteccion de datos, para evitar robos de identidad y hackeos
+- El sistema debe ser soportaddo por la plataforma Javascript
+- Sin importar el sistema operativo (Windows, linux, IOS) el sistema dbe correr sin problemas/inconvenientes   
+- El sistema no revelara datos a personas ajenas al administrador u empleados autorizados 
+
+#Requerimientos Funcionales
+- El sistema debe permitir ingresar únicamente a usuarios com permisos de administración al modulo 'administrativo'
+- El sistema debe permitir ver, agregar, modificar los clientes en la base de datos
+- La facturación debe contener información del cliente, trabajo hecho, fecha, costo
+- El sistema debe permitir agregar, modificar y eliminar productos del inventario
+- El sistema debe mostrar el libro contable del studio tattoo
+
 
 #Requerimirntos de Información
 	- Requisitos de información de los clientes
@@ -36,5 +53,4 @@
 		-El sistema debe almacenar la fecha de vencimiento del producto
 		-El sistema debe almacenar la cantidad de unidades del producto en inventario
 
-#Requerimientos no Funcionales
 
