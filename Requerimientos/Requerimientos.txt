@@ -2,11 +2,13 @@
 
 
 #Requerimientos Funcionales
-- El sistema debe permitir ingresar únicamente a usuarios com permisos de administración al modulo 'administrativo'
-- El sistema debe permitir ver, agregar, modificar los clientes en la base de datos
-- La facturación debe contener información del cliente, trabajo hecho, fecha, costo
-- El sistema debe permitir agregar, modificar y eliminar productos del inventario
-- El sistema debe mostrar el libro contable del studio tattoo
+    - El sistema debe permitir ingresar únicamente a usuarios com permisos de administración al modulo 'administrativo'
+    - El sistema debe permitir ver, agregar, modificar los clientes en la base de datos
+    - El sistema debe permitir ver, agregar, actualizar, eliminar empleados de la base de datos
+    -
+    - La facturación debe contener información del cliente, trabajo hecho, fecha, costo
+    - El sistema debe permitir agregar, modificar y eliminar productos del inventario 
+    - El sistema debe mostrar el libro contable del studio tattoo
 
 #Requerimirntos de Información
 
