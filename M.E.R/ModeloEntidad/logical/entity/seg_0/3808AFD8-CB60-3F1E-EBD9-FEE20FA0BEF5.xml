@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3808AFD8-CB60-3F1E-EBD9-FEE20FA0BEF5" name="Proveedores">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:48:21 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre_provee" id="204E5F0A-EDBB-4CC4-1063-E53AABD8D707">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:49:13 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_provee" id="303A63C8-5EA2-2EAB-4C93-7C53A7BD8D9E">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:49:21 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_provee" id="D9ACEFBD-5638-4BAB-DFD5-D559C6249379">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:49:31 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_local" id="BBD6290B-2028-E7F1-9FF0-9E5F3834EF2A">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:50:36 UTC</createdTime>
+<generatorID>99865DF9-1E2D-8178-2333-802B65AD45BF</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>6513F30A-4E17-CE48-14FA-BAE224437DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF812793-49B3-7FE0-AD58-EBEB9CA3C75F" name="Proveedores PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:49:28 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>303A63C8-5EA2-2EAB-4C93-7C53A7BD8D9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

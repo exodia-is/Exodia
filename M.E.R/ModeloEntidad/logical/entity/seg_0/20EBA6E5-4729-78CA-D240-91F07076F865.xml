@@ -52,7 +52,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

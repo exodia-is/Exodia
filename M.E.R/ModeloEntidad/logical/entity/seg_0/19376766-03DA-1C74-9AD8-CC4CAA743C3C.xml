@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19376766-03DA-1C74-9AD8-CC4CAA743C3C" name="Productos">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:41:43 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_pro" id="543C838E-CB6F-D7F2-28C2-65D0C3B4D7DB">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:41:51 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pro" id="AA11AE02-4A0C-AC44-80BE-1B44B5C6B265">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:42:09 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_provee" id="578B77BC-9638-DD2B-26E0-215AD52B573B">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:43:17 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaVenciiento" id="68464A55-91D9-9072-4171-6CB42CC0A792">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:43:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_pro" id="C2208DDA-4352-FBF2-F6CE-F9527558A48D">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:44:16 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_local" id="C722B277-9FEB-C919-6A3E-1641F96E802C">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:45:01 UTC</createdTime>
+<generatorID>3A46ADD6-F035-CC8D-48B2-9DD53FE96FE7</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>6513F30A-4E17-CE48-14FA-BAE224437DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca_pro" id="30D4C834-3782-0AA5-46F5-9656064445F0">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:48:41 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_provee1" id="3B6B1315-0924-B802-8C93-DC56E9A4A7C9">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:50:45 UTC</createdTime>
+<generatorID>99B95B41-A492-5742-307E-66CCBF029728</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>303A63C8-5EA2-2EAB-4C93-7C53A7BD8D9E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05704F2C-EFDD-D177-5495-3A8EE50E35B8" name="Productos PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 23:42:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA11AE02-4A0C-AC44-80BE-1B44B5C6B265</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
