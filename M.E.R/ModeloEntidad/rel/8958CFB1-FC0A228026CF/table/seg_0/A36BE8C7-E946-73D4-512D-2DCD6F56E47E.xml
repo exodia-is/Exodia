@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A36BE8C7-E946-73D4-512D-2DCD6F56E47E" name="Cliente">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>2A40082D-4358-F704-B30B-C22748F73C15</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre_cli" id="4A5812BD-EAAD-83D3-B0DA-6CF13795470A">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>5F6569F1-B5C7-1904-7C62-8213C66046F6</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_cli" id="55A458B9-1842-AAF3-C4F5-D7F57024ED92">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>1CECDE63-6DFE-49AA-1AC5-0B77D67332A7</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="identificacion_cli" id="68F1FAB2-9D08-452B-ADB5-D75769D52928">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>9E7A8B3B-A3A8-3644-D581-6C1E4CF846C7</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacnimiento_cli" id="0510B6A1-D643-C7D7-1953-25A207AD75AB">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>EFD113F1-B1C1-E00F-8DF0-6364FFD5B700</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_cli" id="95BE83A9-08F1-E46D-D37A-3528609CB511">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>43663FE9-348A-A559-2714-9D6B340AE1BB</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trabajosRealizados_cli" id="33AE950A-4A8F-B1B6-8AF6-D6BB75E065EA">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>4E02737F-7622-8988-E775-5210BB9756DF</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocalTatuajes_Id_local" id="6CC93DCF-7303-8FC5-C919-421DF67DECF5">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>465958BF-E0F3-687A-F9CF-19B02A1791E8</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51C6D6B3-1C01-8D52-238D-9902DA2E3705" referredColumn="116E6F96-8639-843F-47E4-C84318053DC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E59A879-009B-7FA7-3D68-6A65E8C0B1AA" name="Cliente_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>8CEB4671-59C3-F406-9207-8FDEBD29AC8B</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F1FAB2-9D08-452B-ADB5-D75769D52928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89035B52-BC85-1F9D-E6E4-3D994533114A" name="Cliente_LocalTatuajes_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>AC485BDB-C457-8912-887C-B3EC32DCD6E8</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CC93DCF-7303-8FC5-C919-421DF67DECF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

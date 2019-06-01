@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDCBAABB-4311-9D8A-BCF1-27738B1AA5C2" name="Empleado">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>B50DBD43-93C7-A687-C7D5-6EBE92CFC2FA</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre_emp" id="C402EEC2-7D67-65B2-A3FA-CC03ED20206C">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>7B4002D8-6AC9-6E5A-CD7A-1399386842D5</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido_emp" id="BE98B6C9-8E12-C8CA-60A0-A2C4BFBC59C7">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>E90CFA33-DE57-A49B-20DA-14B5E1C86278</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaNacimiento" id="FB0D8276-3D7D-8302-BF25-E5B6F18BA6CB">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>B78037FD-FA80-A20B-C43C-B41E3A0C45EC</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaIngreso" id="3BE4C98E-C48E-24B9-8CB0-6F0A626C4177">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>0A9CA507-720D-199C-0F1E-44469EBBAAC6</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cargo_emp" id="29AFE018-62B8-3477-B3EA-D18B3F8BF990">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>2089CF0C-8587-6619-5001-F33A77FFF28F</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS_emp" id="9FFBC366-F657-47B8-1220-8DE74D0689F2">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>B452701D-00A2-F7C5-29E2-6DC2AC6A1F7C</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocalTatuajes_Id_local" id="D6A729C7-6D4A-99BE-21F1-10152B5233F5">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>EC6611B1-728C-7064-90B1-821F27632E17</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8927E26-41F9-AB4E-1525-33CC068F4DDF" referredColumn="116E6F96-8639-843F-47E4-C84318053DC1"/>
+</associations>
+</Column>
+<Column name="Identificacion_emp" id="B904AEC2-3AA2-010D-7B05-C4386E117438">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>E16D73E2-E5BB-F204-753B-FC45BC0956E1</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_emp" id="2D657F9F-5952-529E-AC4E-22211C79C5B7">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>D957E6E5-E16A-3F9A-940B-6FA13DD36DFC</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4F464C5-E876-E9F4-A287-7EBCC0F3D1A5" name="Empleado_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>B4915AE8-7873-29F0-C020-A2DAE44AFEAA</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D657F9F-5952-529E-AC4E-22211C79C5B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0ADBA979-D009-7D66-9585-456ACED04C97" name="Empleado_LocalTatuajes_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>BF6FB26D-CF86-DD1F-97E1-E919225B2BC9</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A729C7-6D4A-99BE-21F1-10152B5233F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

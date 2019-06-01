@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DA11B9E-9973-6245-8FB7-AA7CF20802CD" name="LocalTatuajes">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>CA2C1B71-CE57-6669-D82D-4C47388A9A37</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre_local" id="614AB00A-ED2A-383C-ED3C-92776E54F8CE">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>68BCBF47-93C9-1AD7-287C-902D52ECA264</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_local" id="116E6F96-8639-843F-47E4-C84318053DC1">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>6513F30A-4E17-CE48-14FA-BAE224437DD6</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_telefono" id="1CD897C6-CBFE-1461-8AB9-F653F68E2983">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>46C7B6F1-9D95-FBC3-EF95-E94DF943C4C1</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="965C4691-EE66-C83B-0FA5-214C343E259F" name="LocalTatuajes_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>36912C8F-CA69-0460-9FE3-1DA992F5AB1F</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="116E6F96-8639-843F-47E4-C84318053DC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

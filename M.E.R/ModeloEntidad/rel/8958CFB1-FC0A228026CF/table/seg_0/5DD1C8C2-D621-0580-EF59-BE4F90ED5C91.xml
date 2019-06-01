@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DD1C8C2-D621-0580-EF59-BE4F90ED5C91" name="Proveedores">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>3808AFD8-CB60-3F1E-EBD9-FEE20FA0BEF5</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre_provee" id="B7E2B7A6-B352-01FF-727E-0AD344DE5412">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>204E5F0A-EDBB-4CC4-1063-E53AABD8D707</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_provee" id="6FD17E1A-E53F-FB2E-EA0E-9C81CEDA8E1E">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>303A63C8-5EA2-2EAB-4C93-7C53A7BD8D9E</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_provee" id="98B4FCA1-DEA1-4125-2E7E-0E0D948D920A">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>D9ACEFBD-5638-4BAB-DFD5-D559C6249379</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LocalTatuajes_Id_local" id="67CF5A43-DC11-5A0F-D338-E9FBBD76B92D">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>BBD6290B-2028-E7F1-9FF0-9E5F3834EF2A</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0410D4C-2C7F-9D30-B241-03139BC0C2EF" referredColumn="116E6F96-8639-843F-47E4-C84318053DC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D084B547-695E-1976-2C95-20911E51C315" name="Proveedores_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>AF812793-49B3-7FE0-AD58-EBEB9CA3C75F</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FD17E1A-E53F-FB2E-EA0E-9C81CEDA8E1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC959A5-E555-A500-0C9C-19FA17DF24C3" name="Proveedores_LocalTatuajes_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>99865DF9-1E2D-8178-2333-802B65AD45BF</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67CF5A43-DC11-5A0F-D338-E9FBBD76B92D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

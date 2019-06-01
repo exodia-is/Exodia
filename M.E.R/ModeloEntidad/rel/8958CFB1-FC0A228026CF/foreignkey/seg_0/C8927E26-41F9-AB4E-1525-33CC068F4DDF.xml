@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8927E26-41F9-AB4E-1525-33CC068F4DDF" containerWithKeyObject="DDCBAABB-4311-9D8A-BCF1-27738B1AA5C2" localFKIndex="0ADBA979-D009-7D66-9585-456ACED04C97" name="Empleado_LocalTatuajes_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>BF6FB26D-CF86-DD1F-97E1-E919225B2BC9</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referredTableLongName>LocalTatuajes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DA11B9E-9973-6245-8FB7-AA7CF20802CD</referredTableID>
+<keyObject>965C4691-EE66-C83B-0FA5-214C343E259F</keyObject>
+<referredKeyID>965C4691-EE66-C83B-0FA5-214C343E259F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_local</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

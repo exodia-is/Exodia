@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC2B2E07-B6D2-B265-6803-42AF8453D276" name="Relation_15">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_identificacion_cli" id="6CE602C2-3FF0-0408-31AD-7B68FD94B663">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48D36C05-5A44-E69A-3C65-ADCA90A8AFB2" referredColumn="68F1FAB2-9D08-452B-ADB5-D75769D52928"/>
+</associations>
+</Column>
+<Column name="Productos_id_pro" id="539BD993-9EAF-7A71-798E-4568C6ABE52E">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7342E350-F149-B6E0-7B00-27779E57634E" referredColumn="824154EF-42A0-3F9E-CD9C-F2CB965EC63A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A21470E3-8F58-9BA3-5952-BBAB1D9DB562" name="Relation_15_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE602C2-3FF0-0408-31AD-7B68FD94B663"/>
+<colUsage columnID="539BD993-9EAF-7A71-798E-4568C6ABE52E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1785F264-F5EF-02D5-99F0-0C6D2298FCB8" name="Relation_15_Cliente_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>3FC842B6-88C2-6270-7162-A7ECE2F2FE50</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE602C2-3FF0-0408-31AD-7B68FD94B663"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05C71B50-6145-1652-45F1-43F49AAEC25C" name="Relation_15_Productos_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 12:40:59 UTC</createdTime>
+<generatorID>3FC842B6-88C2-6270-7162-A7ECE2F2FE50</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539BD993-9EAF-7A71-798E-4568C6ABE52E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
