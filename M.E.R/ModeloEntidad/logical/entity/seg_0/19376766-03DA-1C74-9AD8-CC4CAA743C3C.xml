@@ -40,7 +40,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fechaVenciiento" id="68464A55-91D9-9072-4171-6CB42CC0A792">
+<Attribute name="fechaVencimiento" id="68464A55-91D9-9072-4171-6CB42CC0A792">
 <createdBy>Usuario</createdBy>
 <createdTime>2019-05-31 23:43:59 UTC</createdTime>
 <ownerDesignName>ModeloEntidad</ownerDesignName>
