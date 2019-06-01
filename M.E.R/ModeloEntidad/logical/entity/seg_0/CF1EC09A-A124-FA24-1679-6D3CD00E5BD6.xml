@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF1EC09A-A124-FA24-1679-6D3CD00E5BD6" name="Tatuaje">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:53:23 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="3852BF56-24AE-D465-CEA1-0655C50827BA">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:54:03 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto_tatoo" id="1089FACC-7FC1-65A9-94C8-80BE951E9A39">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:58:25 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="AC71664A-A532-6EE5-2A6E-EEA1725027D9">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:58:48 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area" id="ABCDA22F-7DE2-7F2B-1E00-66EC5A90193B">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:59:07 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="206C9B90-0531-F7BB-8402-190381B09CFF">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 02:00:02 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_de_trabajo" id="EE480A50-7662-A8D8-BA94-39D5F397CD28">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 02:03:49 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion_cli" id="5A5101E0-5FB8-6C03-3FE3-8FDBC49C8EA9">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 02:04:33 UTC</createdTime>
+<generatorID>57407E11-8F7B-A1A5-100B-89029D562957</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>9E7A8B3B-A3A8-3644-D581-6C1E4CF846C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_emp" id="AEFAA3D0-3CAE-D066-A3B5-084F9303362A">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 02:04:48 UTC</createdTime>
+<generatorID>BD3D13C2-9737-4886-9C42-34DEE6088778</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>D957E6E5-E16A-3F9A-940B-6FA13DD36DFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97343BB7-0859-D3BE-EF60-A0CF364ED01F" name="Tatuaje PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-01 01:58:23 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3852BF56-24AE-D465-CEA1-0655C50827BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

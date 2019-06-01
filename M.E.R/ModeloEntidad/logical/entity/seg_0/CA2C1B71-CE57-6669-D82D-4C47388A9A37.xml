@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA2C1B71-CE57-6669-D82D-4C47388A9A37" name="LocalTatuajes">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:48:58 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_local" id="68BCBF47-93C9-1AD7-287C-902D52ECA264">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:50:28 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_local" id="6513F30A-4E17-CE48-14FA-BAE224437DD6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:50:57 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_telefono" id="46C7B6F1-9D95-FBC3-EF95-E94DF943C4C1">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:51:25 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36912C8F-CA69-0460-9FE3-1DA992F5AB1F" name="Exodia PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:51:17 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6513F30A-4E17-CE48-14FA-BAE224437DD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

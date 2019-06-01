@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B50DBD43-93C7-A687-C7D5-6EBE92CFC2FA" name="Empleado ">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:52:01 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_emp" id="7B4002D8-6AC9-6E5A-CD7A-1399386842D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:52:10 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_emp" id="E90CFA33-DE57-A49B-20DA-14B5E1C86278">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:52:44 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaNacimiento" id="B78037FD-FA80-A20B-C43C-B41E3A0C45EC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:53:31 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaIngreso" id="0A9CA507-720D-199C-0F1E-44469EBBAAC6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:54:18 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargo_emp" id="2089CF0C-8587-6619-5001-F33A77FFF28F">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:54:56 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EPS_emp" id="B452701D-00A2-F7C5-29E2-6DC2AC6A1F7C">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:56:06 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_local" id="EC6611B1-728C-7064-90B1-821F27632E17">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 17:57:57 UTC</createdTime>
+<generatorID>BF6FB26D-CF86-DD1F-97E1-E919225B2BC9</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>6513F30A-4E17-CE48-14FA-BAE224437DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificacion_emp" id="E16D73E2-E5BB-F204-753B-FC45BC0956E1">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:02:44 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_emp" id="D957E6E5-E16A-3F9A-940B-6FA13DD36DFC">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:12:51 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B4915AE8-7873-29F0-C020-A2DAE44AFEAA" name="Empleado PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:13:34 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D957E6E5-E16A-3F9A-940B-6FA13DD36DFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

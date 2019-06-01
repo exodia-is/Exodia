@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A40082D-4358-F704-B30B-C22748F73C15" name="Cliente">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:02:35 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre_cli" id="5F6569F1-B5C7-1904-7C62-8213C66046F6">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:04:12 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido_cli" id="1CECDE63-6DFE-49AA-1AC5-0B77D67332A7">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:04:18 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="identificacion_cli" id="9E7A8B3B-A3A8-3644-D581-6C1E4CF846C7">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:06:17 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaNacnimiento_cli" id="EFD113F1-B1C1-E00F-8DF0-6364FFD5B700">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:06:45 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_cli" id="43663FE9-348A-A559-2714-9D6B340AE1BB">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:08:39 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trabajosRealizados_cli" id="4E02737F-7622-8988-E775-5210BB9756DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:11:57 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_local" id="465958BF-E0F3-687A-F9CF-19B02A1791E8">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:13:58 UTC</createdTime>
+<generatorID>AC485BDB-C457-8912-887C-B3EC32DCD6E8</generatorID>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<referedAttribute>6513F30A-4E17-CE48-14FA-BAE224437DD6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CEB4671-59C3-F406-9207-8FDEBD29AC8B" name="Cliente PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2019-05-31 18:06:43 UTC</createdTime>
+<ownerDesignName>ModeloEntidad</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E7A8B3B-A3A8-3644-D581-6C1E4CF846C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
