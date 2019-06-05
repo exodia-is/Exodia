@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="4F5C4B50-6A52-7F6C-4439-2A8FE9D3B007" name="ExodiaMER-Web" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

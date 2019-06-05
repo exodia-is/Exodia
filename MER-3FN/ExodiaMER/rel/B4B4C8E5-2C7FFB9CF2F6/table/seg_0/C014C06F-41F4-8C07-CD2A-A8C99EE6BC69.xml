@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C014C06F-41F4-8C07-CD2A-A8C99EE6BC69" name="Tattoo">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:46:28 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tattoo_id" id="0638A385-FB7A-2C99-371C-4C168E61144B">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:52:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="23A1BFEB-26DA-3E20-8648-C7680F588EC7">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:52:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="D1C19746-1B28-46D4-148C-B8B458E9CAF7">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:52:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="photo" id="93925B0E-ED1D-6340-0758-95B5BCD23242">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:52:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventory_Inventory_id" id="4CAC2AE3-F724-FE7A-8B1F-B37FE490EA7C">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:54:10 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72C098C1-D048-8453-A23A-D55EC26154F5" referredColumn="94C9139D-DC84-720F-DE3C-2D3298FDDF40"/>
+</associations>
+</Column>
+<Column name="Employee_employee_id" id="6E91B9A9-5BCC-B3C5-D93F-9C46D1FF09B2">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:55:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BF4CC20-15AD-8383-7C82-4654A79A0AF0" referredColumn="ED44EA08-A8E0-2ADC-4000-6D4DA099EAC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C26848D-F332-EF3B-F1EF-A914EEAC767C" name="Tattoo_PK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:52:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0638A385-FB7A-2C99-371C-4C168E61144B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B052E8B-81F0-E136-7D7C-23AD93BE5CD0" name="Tattoo_Inventory_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:54:10 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CAC2AE3-F724-FE7A-8B1F-B37FE490EA7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFDC0AA6-0B4C-7E8E-5D2D-70DCEA2F2796" name="Tattoo_Employee_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:55:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E91B9A9-5BCC-B3C5-D93F-9C46D1FF09B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

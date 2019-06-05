@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3278E70-944B-0F81-B4C0-709DD2994759" containerWithKeyObject="14BD073C-FD90-EFD5-8B64-1150AA426D25" localFKIndex="5B5DC52E-B4B2-F64E-BD8E-FB3C68CA1F1B" name="Bill_Client_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:26:51 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<referredTableLongName>Client</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F6B9C0C-A308-F55D-1111-9796D05A6BBD</referredTableID>
+<keyObject>E66E19DE-42F6-9253-2DC5-F98D31AE6E5B</keyObject>
+<referredKeyID>E66E19DE-42F6-9253-2DC5-F98D31AE6E5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>client_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

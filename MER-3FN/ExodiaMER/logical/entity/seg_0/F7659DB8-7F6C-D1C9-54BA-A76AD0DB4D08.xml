@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7659DB8-7F6C-D1C9-54BA-A76AD0DB4D08" name="BilltypeP">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>1989ED31-09B8-B89E-F99A-7FD9B4F1F4E9</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="billp id" id="BED770E5-D077-ACFD-9967-C08B1D2BEE37">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>AC04B37F-CC17-A74A-9BFC-0BFC614FD552</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product id" id="32CBF447-FF7C-E00D-45AE-4042AF5E978D">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>CFB7F88C-279B-A8C7-4F8C-44095C3B0985</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<referedAttribute>68F22E7F-3545-D368-736E-4530FF7246DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Column 3" id="C8C4ADCB-695C-0A17-C1B2-0C2712D57297">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>86520C92-D212-0D25-CD18-FCDA97CEF8BF</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supplier id" id="0351EE8F-C58B-5260-F46C-C2C8B0369234">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>37921920-3F19-74A0-FB7A-BAB94366ADF7</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<referedAttribute>7267CC57-4000-E10A-237C-E74D06FE82AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="0664AC6A-D93D-7210-56BF-DB742684212C">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>4D01B788-B8EF-F966-8BAB-D71AA8723894</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="C139DE3D-F6AC-8AFA-2F0D-ADB8EABC6AFF">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>1E64A5C6-17CB-F6BA-F707-D8585F4A806B</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="9009F16C-BA55-265D-FBC5-9824BE6D085A">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>A02EAFCB-C6C2-1256-E7BF-2D3F957EBC6E</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5088E385-7E70-DF9B-C383-DA0E06112F1D" name="BilltypeP PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>895F2DB3-5B93-C55F-121D-7E490D077DA9</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BED770E5-D077-ACFD-9967-C08B1D2BEE37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

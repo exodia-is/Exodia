@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8A5327D-0D89-D425-54FB-2BC8C98E1D1B" name="Contact">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:09:16 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contact_id" id="69D3F1AE-C9B1-F762-0455-5B4506E3B2BF">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:09:56 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="F8F6C6AB-9768-9E7B-64B5-DC4449B2C898">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:10:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90 CHAR</dataTypeSize>
+<ownDataTypeParameters>90 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="165FE1AE-C375-BFEA-0516-BFCD6A656E0C">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:11:13 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_id" id="8C4D405A-3CEC-2093-22D9-4F0FA1162550">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:12:05 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2254ECD3-49D1-976E-ED81-B308A97A1A9E" referredColumn="920E0EB1-9CB2-BE1F-B6F8-8287DDF3E757"/>
+</associations>
+</Column>
+<Column name="Supplier_supplier_id" id="6A9DA688-947A-AB4B-3D13-4DF78D5A27C6">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:42:34 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47841527-6BE8-B28A-D031-BD339764539E" referredColumn="022A750E-1B61-51C9-DAC8-FA74107D9748"/>
+</associations>
+</Column>
+<Column name="Client_client_id" id="A5B63519-4FD6-6A00-76AA-BBE1CADDAEF4">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:42:47 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10F08968-765C-D0E3-E5DC-692D2965AAAF" referredColumn="CD3AC925-B0DA-A764-A0BB-FE7D8A34583A"/>
+</associations>
+</Column>
+<Column name="Employee_employee_id" id="75BB8052-90CC-E776-40AA-ABBE6C96F5AD">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:43:06 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8361833D-9E91-1E99-CD16-E55E8EA7C82C" referredColumn="ED44EA08-A8E0-2ADC-4000-6D4DA099EAC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB420DD1-9C0D-566A-0E88-87F9AA936C79" name="Contact_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:09:56 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D3F1AE-C9B1-F762-0455-5B4506E3B2BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B06EA81-4451-F0F6-F40D-A517BE8257E5" name="Contact_Address_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:21:55 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C4D405A-3CEC-2093-22D9-4F0FA1162550"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AB4123C-3D71-FBCF-B0B8-793655A095F6" name="Contact_Supplier_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:42:34 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A9DA688-947A-AB4B-3D13-4DF78D5A27C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34AB447A-BA5F-2661-B7A9-B44CF93FCF3C" name="Contact_Client_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:42:47 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B63519-4FD6-6A00-76AA-BBE1CADDAEF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="204C2140-219E-E1EC-42B9-E88465D52CE6" name="Contact_Employee_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-05 00:43:06 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75BB8052-90CC-E776-40AA-ABBE6C96F5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

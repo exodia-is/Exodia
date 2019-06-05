@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0C6AFAA-8C66-C43F-77C1-6DDE10597C17" name="Category">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:30:17 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_id" id="7017FC2D-B96E-FA4A-95AA-503B9F9846DD">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:31:26 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D881F9BA-687E-868E-A582-5AF32D055D29">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:31:49 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="DD2BF23C-B407-1B85-1219-73113B7C6EB8">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:32:14 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D0128C4-9F59-FE0B-2BF8-FF9B1379C2B7" name="Category_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:31:26 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7017FC2D-B96E-FA4A-95AA-503B9F9846DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

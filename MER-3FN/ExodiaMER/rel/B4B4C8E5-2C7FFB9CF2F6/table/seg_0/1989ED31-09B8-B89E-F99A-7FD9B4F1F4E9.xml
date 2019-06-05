@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1989ED31-09B8-B89E-F99A-7FD9B4F1F4E9" name="BilltypeP">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:31:51 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="billp_id" id="AC04B37F-CC17-A74A-9BFC-0BFC614FD552">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:32:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_id" id="860E1558-C6C8-1F96-A137-32D6D2D76913">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:33:15 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF593EF9-5460-9955-CC21-77A6F398D5F1" referredColumn="38800F29-A9C2-AC2B-0359-68485EDEA118"/>
+</associations>
+</Column>
+<Column name="Column_3" id="86520C92-D212-0D25-CD18-FCDA97CEF8BF">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:33:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier_id" id="43F26FA8-6A49-8679-9D85-A75CFD49FACD">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:33:52 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0845081-2CC1-EC54-7251-D07262BE1D38" referredColumn="022A750E-1B61-51C9-DAC8-FA74107D9748"/>
+</associations>
+</Column>
+<Column name="date" id="4D01B788-B8EF-F966-8BAB-D71AA8723894">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:34:15 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="1E64A5C6-17CB-F6BA-F707-D8585F4A806B">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:34:49 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="A02EAFCB-C6C2-1256-E7BF-2D3F957EBC6E">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:35:05 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="895F2DB3-5B93-C55F-121D-7E490D077DA9" name="BilltypeP_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:32:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC04B37F-CC17-A74A-9BFC-0BFC614FD552"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BCC6B76-3FE9-0341-FA38-E624C75A5163" name="BilltypeP_Supplier_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:37:38 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F26FA8-6A49-8679-9D85-A75CFD49FACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4511B05D-C6EC-6E55-7B28-B5DFF6B3668C" name="BilltypeP_Product_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:38:45 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="860E1558-C6C8-1F96-A137-32D6D2D76913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85A1A77B-F486-7EFC-BEFF-CC8DD409A977" name="Product Category">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>4227DE5B-630C-83EB-73A8-8A544B147BD4</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="category id" id="BF6A90B6-9DF2-C5CE-6A71-9503D129F90D">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>D64B402D-BD4D-8777-25EB-11445085EE62</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<referedAttribute>24447083-1BBB-AEDC-C59F-E756F42035ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product id" id="A8DDBCB1-CBBB-97C3-B25C-71C5746DD5AF">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>F5E7E876-18A3-003C-6BE5-B17FFF0ED3C8</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<referedAttribute>68F22E7F-3545-D368-736E-4530FF7246DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last update" id="31374127-D7F0-D3C8-05C2-0D72759A7EBF">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>1B7FBE3E-BD81-9E1A-E650-3B9D10EEFDA4</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CCF5E8E-1729-DEAC-7D21-7A7CC028DCCC" name="Product Category PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>374340B4-6C83-710D-02EC-ADDC7698F8D4</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF6A90B6-9DF2-C5CE-6A71-9503D129F90D</attributeRef>
+<attributeRef>A8DDBCB1-CBBB-97C3-B25C-71C5746DD5AF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

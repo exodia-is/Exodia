@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FC2244DF-74D5-4E63-9277-A9D078EB44FB" containerWithKeyObject="14BD073C-FD90-EFD5-8B64-1150AA426D25" localFKIndex="2D9DD0D4-5923-9855-416F-A0454B3CA11A" name="Bill_Employee_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:21:42 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<referredTableLongName>Employee</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE30B2C9-5D20-3A3A-D74D-19B16A7B7F9F</referredTableID>
+<keyObject>341C8C75-86B5-C80F-6C4E-1BA5DAC93B6D</keyObject>
+<referredKeyID>341C8C75-86B5-C80F-6C4E-1BA5DAC93B6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>employee_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

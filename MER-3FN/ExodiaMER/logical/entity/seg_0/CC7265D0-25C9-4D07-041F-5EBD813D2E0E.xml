@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CC7265D0-25C9-4D07-041F-5EBD813D2E0E" name="Institution">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>7F9133AB-13CC-0C41-9FD8-5FB514353100</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="institution id" id="1133A5E2-8AAD-1B55-3EEE-3298C0D26483">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>FF27FFE9-E820-D56D-53C5-8BBAF7CB2F9C</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9B28ACD1-C02D-DDFC-A29B-EB49DD8F1BF9">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>DE598185-962B-48A4-2F81-2CB33CD7091F</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact id" id="70852D40-59D5-79BB-5A21-BC7858E25967">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>CF9B3937-DBCB-8977-0A7B-34A6FE8F7C37</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<referedAttribute>A4A7EECB-840E-82B3-EF6D-2BF7B985E365</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0B0C197-A79D-7B6B-F2A3-D103D2796002" name="Institution PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>FE2C354D-7B22-5EA1-C64E-DCCBAEB56E24</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1133A5E2-8AAD-1B55-3EEE-3298C0D26483</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D43C6FC-86C3-34FF-634A-139DE9C7AC68" name="Position">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:43:33 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="position_id" id="7C91D804-8DC0-8139-A478-F36807A115D8">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:44:05 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="6EAFA5BC-7315-C459-438F-AAE43C3D56BD">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:44:21 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="3C1BBDA9-8E22-F5A7-EECA-98C2518F0D97">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:44:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary_id" id="ABC4C9AF-6EC1-7535-D8CB-E9430C5FBC4B">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:12:30 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF893AB5-49FF-F92C-0225-66958428A49E" referredColumn="1333BEA9-B3AF-12E5-28D7-B2AF2E59EB42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0672C9B-5F21-7CDF-6809-EEB4F4B63D16" name="Position_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:44:05 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C91D804-8DC0-8139-A478-F36807A115D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="881E99CB-2D97-6B58-620D-42F1A7093C27" name="Position_Salary_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:12:47 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABC4C9AF-6EC1-7535-D8CB-E9430C5FBC4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

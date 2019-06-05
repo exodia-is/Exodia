@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4227DE5B-630C-83EB-73A8-8A544B147BD4" name="Product_Category">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:51:09 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_id" id="BE338EFC-5DF8-4315-B36D-84C7077C013B">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:51:45 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE83F43-2DE1-98CD-9C3C-C8D2D5523D72" referredColumn="7017FC2D-B96E-FA4A-95AA-503B9F9846DD"/>
+</associations>
+</Column>
+<Column name="product_id" id="112B39B0-367C-4613-4374-9EDEA159C13C">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:52:13 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56D89841-FD43-4692-DE6A-F7F3B7A18C87" referredColumn="38800F29-A9C2-AC2B-0359-68485EDEA118"/>
+</associations>
+</Column>
+<Column name="last_update" id="1B7FBE3E-BD81-9E1A-E650-3B9D10EEFDA4">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:52:28 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="374340B4-6C83-710D-02EC-ADDC7698F8D4" name="Product_Category_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:51:45 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE338EFC-5DF8-4315-B36D-84C7077C013B"/>
+<colUsage columnID="112B39B0-367C-4613-4374-9EDEA159C13C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D4CA418-B132-3C27-B346-3D80E3731992" name="Product_Category_Category_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:52:34 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE338EFC-5DF8-4315-B36D-84C7077C013B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E5F302-1FD7-49D2-14BE-15C8B801D927" name="Product_Category_Product_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:53:36 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="112B39B0-367C-4613-4374-9EDEA159C13C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

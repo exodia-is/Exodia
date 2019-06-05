@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0845081-2CC1-EC54-7251-D07262BE1D38" containerWithKeyObject="1989ED31-09B8-B89E-F99A-7FD9B4F1F4E9" localFKIndex="1BCC6B76-3FE9-0341-FA38-E624C75A5163" name="BilltypeP_Supplier_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 00:37:38 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<referredTableLongName>Supplier</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>989F66EC-0A56-1825-1B1C-34E9AFDA71CE</referredTableID>
+<keyObject>3085D36A-D418-5546-8B20-97DFC317BC05</keyObject>
+<referredKeyID>3085D36A-D418-5546-8B20-97DFC317BC05</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>supplier_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

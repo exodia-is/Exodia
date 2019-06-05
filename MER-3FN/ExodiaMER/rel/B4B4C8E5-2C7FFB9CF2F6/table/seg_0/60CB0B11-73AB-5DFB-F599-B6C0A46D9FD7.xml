@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60CB0B11-73AB-5DFB-F599-B6C0A46D9FD7" name="Address">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:14:15 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="920E0EB1-9CB2-BE1F-B6F8-8287DDF3E757">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:14:39 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="0363818C-397E-2A12-0A0C-A38621187AF4">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:15:17 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="D9B23B31-998B-4F1B-57B9-0269D005955D">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:16:40 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_id" id="5F1686C5-DA8F-022B-77F4-86A639AFB5A0">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:15:47 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6894702-3854-F36E-18BA-72BA3F32D32F" referredColumn="66859CBB-B27C-273B-7C0E-5BCB2A4A0B8C"/>
+</associations>
+</Column>
+<Column name="last_update" id="64F8B605-12A4-127E-DB14-B46E600DBD94">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:16:07 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D24CE77B-1A2D-ECA2-A8CA-11199BC204B6" name="Address_PK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:14:39 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920E0EB1-9CB2-BE1F-B6F8-8287DDF3E757"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="933EE967-EF93-1E5A-C81D-82A9CB127C2D" name="Address_City_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 23:21:31 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F1686C5-DA8F-022B-77F4-86A639AFB5A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

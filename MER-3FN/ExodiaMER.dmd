@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ExodiaMER" id="AEE93272-DAC8-E703-3F21-A71BDD3CE8B9" version="3.5">
+<createdBy>root</createdBy>
+<createdTime>2019-06-03 22:29:57 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AEE93272-DAC8-E703-3F21-A71BDD3CE8B9</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="28D6076E-EA4A-5BFE-EAF8-FEBF45729BFB">
+<designStoragePath>/home/klein/Documentos/temporall/Exodia/exodia.doc/M.E.R/ModeloEntidad</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

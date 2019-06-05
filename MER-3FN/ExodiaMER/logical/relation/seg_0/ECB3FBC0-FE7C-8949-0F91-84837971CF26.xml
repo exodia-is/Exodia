@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Product_Supplier_FK" directorySegmentName="seg_0" id="ECB3FBC0-FE7C-8949-0F91-84837971CF26">
+<createdBy>root</createdBy>
+<createdTime>2019-06-04 01:15:18 UTC</createdTime>
+<generatorID>5EB9D30A-C5B4-6EFD-652E-9FB99A1DA261</generatorID>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<engineerTo>
+<item key="B4B4C8E5-3E30-59EF-9DB6-2C7FFB9CF2F6" value="true"/>
+<item key="2706548D-8599-32A1-E766-52AA1C289106" value="true"/>
+</engineerTo>
+<sourcePk>6BB2E523-76D2-9D3F-7FBF-95E10069775B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16D6FAC9-24F2-F62B-0A26-E10355B85595</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B9CBAAA-8BEA-4F74-660E-4E18ECED8D25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
