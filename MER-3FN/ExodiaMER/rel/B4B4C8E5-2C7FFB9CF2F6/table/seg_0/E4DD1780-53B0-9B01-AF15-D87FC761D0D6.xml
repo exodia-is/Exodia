@@ -7,4 +7,56 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="category_id" id="7C0091EC-06B4-7984-C2E6-130DBFDF9ADC">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-06 02:00:54 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D49BFEB-1FB5-6802-0130-919863449B57" referredColumn="7017FC2D-B96E-FA4A-95AA-503B9F9846DD"/>
+</associations>
+</Column>
+<Column name="tattoo_id" id="61B26F54-5EA0-2CB0-DA79-89CA26F70B67">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-06 02:01:24 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1458448-7839-36C1-7105-2D3FA2702880" referredColumn="0638A385-FB7A-2C99-371C-4C168E61144B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F96B4A94-0417-EA30-C237-B54DF5F89A5B" name="Tattoo_Category_Category_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-06 02:01:33 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0091EC-06B4-7984-C2E6-130DBFDF9ADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A791B191-07A1-6FA6-85A2-E4F6F78685B1" name="Tattoo_Category_Tattoo_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-06 02:01:49 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61B26F54-5EA0-2CB0-DA79-89CA26F70B67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

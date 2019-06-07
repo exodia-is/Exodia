@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D49BFEB-1FB5-6802-0130-919863449B57" containerWithKeyObject="E4DD1780-53B0-9B01-AF15-D87FC761D0D6" localFKIndex="F96B4A94-0417-EA30-C237-B54DF5F89A5B" name="Tattoo_Category_Category_FK">
+<createdBy>Alejo</createdBy>
+<createdTime>2019-06-06 02:01:33 UTC</createdTime>
+<ownerDesignName>ExodiaMER</ownerDesignName>
+<referredTableLongName>Category</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F0C6AFAA-8C66-C43F-77C1-6DDE10597C17</referredTableID>
+<keyObject>1D0128C4-9F59-FE0B-2BF8-FF9B1379C2B7</keyObject>
+<referredKeyID>1D0128C4-9F59-FE0B-2BF8-FF9B1379C2B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>category_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
