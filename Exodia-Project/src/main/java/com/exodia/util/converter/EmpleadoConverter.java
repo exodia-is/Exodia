@@ -3,41 +3,45 @@ package com.exodia.util.converter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindException;
 
+import com.exodia.entity.EmpleadoEntity;
+import com.exodia.util.validator.GenericValidator;
+import com.exodia.vo.EmpleadoVO;
+
 public class EmpleadoConverter {
 
 	@Autowired
-	private GenericValidator<PersonaEntity> genericValidator;
+	private GenericValidator<EmpleadoEntity> genericValidator;
 	
-	public PersonaEntity modalToEntity(PersonaVO personaVO) throws BindException {
-		PersonaEntity personaEntity = null;
-		if(personaVO != null) {
-			personaEntity = new PersonaEntity();
-			personaEntity.setId(personaVO.getId());
-			personaEntity.setNombres(personaVO.getNombres());
-			personaEntity.setApellidos(personaVO.getApellidos());
-			personaEntity.setTelefono(personaVO.getTelefono());
-			personaEntity.setCorreo(personaVO.getCorreo());
+	public EmpleadoEntity modalToEntity(EmpleadoVO empleadoVO) throws BindException {
+		EmpleadoEntity empleadoEntity = null;
+		if(empleadoVO != null) {
+			empleadoEntity = new EmpleadoEntity();
+			empleadoEntity.setId(empleadoVO.getId());
+			empleadoEntity.setNombres(empleadoVO.getNombres());
+			empleadoEntity.setApellidos(empleadoVO.getApellidos());
+//			empleadoEntity.setTelefono(empleadoVO.getTelefono());
+//			empleadoEntity.setCorreo(empleadoVO.getCorreo());
 		
 			
 		}
-		genericValidator.validate(personaEntity);
-		return personaEntity;
+		genericValidator.validate(empleadoEntity);
+		return empleadoEntity;
 	}
 	
 	
-	public PersonaVO entityToModel(PersonaEntity  personaEntity) {
-		PersonaVO personaVO = null;
-		if(personaEntity != null) {
-			personaVO = new PersonaVO();
-			personaVO.setId(personaEntity.getId());
-			personaVO.setNombres(personaEntity.getNombres());
-			personaVO.setApellidos(personaEntity.getApellidos());
-			personaVO.setTelefono(personaEntity.getTelefono());
-			personaVO.setCorreo(personaEntity.getCorreo());
+	public EmpleadoVO entityToModel(EmpleadoEntity  empleadoEntity) {
+		EmpleadoVO empleadoVO = null;
+		if(empleadoEntity != null) {
+			empleadoVO = new EmpleadoVO();
+			empleadoVO.setId(empleadoEntity.getId());
+			empleadoVO.setNombres(empleadoEntity.getNombres());
+			empleadoVO.setApellidos(empleadoEntity.getApellidos());
+//			empleadoVO.setTelefono(empleadoEntity.getTelefono());
+//			empleadoVO.setCorreo(empleadoEntity.getCorreo());
 			
 			
 		}		
-		return personaVO;
+		return empleadoVO;
 	}
 
 }
