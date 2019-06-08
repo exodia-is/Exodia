@@ -8,9 +8,9 @@ import javax.validation.ValidatorFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindException;
 
+
 @Component
 public class GenericValidator<T> {
-	
 	public void validate(T entity)  throws BindException {
 		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
 		Validator Validator = factory.getValidator();

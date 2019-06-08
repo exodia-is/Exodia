@@ -4,18 +4,24 @@ import java.util.List;
 
 import org.springframework.validation.BindException;
 
-import com.exodia.entity.EmpleadoEntity;
-import com.exodia.vo.EmpleadoVO;
+import com.exodia.entity.PersonaEntity;
+import com.exodia.vo.PersonaVO;
+
+
 
 public interface EmpleadoService {
-	
-	List<EmpleadoEntity>  listAll();
-	
-	void save(EmpleadoEntity empleadoEntity);
 
-	EmpleadoEntity findById(long id);
+		List<PersonaEntity>  listAll();
+		
+		void save(PersonaEntity personaEntity);
 
-	void save(EmpleadoVO personaVO) throws BindException;
+		PersonaEntity findById(long id);
 
-	void delete(Long id);
+		void save(PersonaVO personaVO) throws BindException;
+		
+		void delete(long id);
+		
+		void editar(PersonaVO personaVo);
+		
+
 }
